@@ -12,10 +12,10 @@
 			"PDF_DAM_Montilivi": "https://www.institutmontilivi.cat/articles/oferta-formativa/cicles-formatius-grau-superior-bottom/D%C3%ADptics%202023/DAM_10_mar%C3%A7_2023.pdf"
 		};
 
-		// Obtener la parte de la URL que sigue al nombre del archivo
-		const ruta = window.location.pathname;
-		const partesRuta = ruta.split('/');
-		const id = partesRuta[1];
+		// Obtener el valor del parámetro "id" de la URL
+		const queryString = window.location.search;
+		const urlParams = new URLSearchParams(queryString);
+		const id = urlParams.get('id');
 		
 		// Verificar si el valor de "id" está en el objeto de redirecciones y redirigir si es así
 		if (id in redirecciones) {
