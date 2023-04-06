@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Redirección según ID</title>
+</head>
+<body>
+	<script>
+		// Definir un objeto JSON que contiene las redirecciones
+		const redirecciones = {
+			"PDF_DAW_Montilivi": "https://www.institutmontilivi.cat/articles/oferta-formativa/cicles-formatius-grau-superior-bottom/D%C3%ADptics%202023/DAW_10_mar%C3%A7_2023.pdf",
+			"PDF_DAM_Montilivi": "https://www.institutmontilivi.cat/articles/oferta-formativa/cicles-formatius-grau-superior-bottom/D%C3%ADptics%202023/DAM_10_mar%C3%A7_2023.pdf"
+		};
+
+		// Obtener la parte de la URL que sigue al nombre del archivo
+		const ruta = window.location.pathname;
+		const partesRuta = ruta.split('/');
+		const id = partesRuta[1];
+		
+		// Verificar si el valor de "id" está en el objeto de redirecciones y redirigir si es así
+		if (id in redirecciones) {
+			window.location.replace(redirecciones[id]);
+		} else {
+			// Redirigir a una página de error si el valor de "id" no es válido
+			// window.location.replace("https://www.ejemplo.com/error.html");
+            alert("Invalid ID");
+		}
+	</script>
+</body>
+</html>
