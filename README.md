@@ -1,1 +1,1 @@
-# A repository for redirections
+# Un repositori per a les redireccions
