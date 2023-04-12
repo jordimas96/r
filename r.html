@@ -5,6 +5,11 @@
 	<title>Redirección según ID</title>
 </head>
 <body>
+	<style>
+		input {
+			font-size: 2rem;
+		}
+	</style>
 	<script>
 		// Definir un objeto JSON que contiene las redirecciones
 		const redirecciones = {
@@ -23,14 +28,21 @@
 		const urlParams = new URLSearchParams(queryString);
 		const id = urlParams.get('id');
 		
-		// Verificar si el valor de "id" está en el objeto de redirecciones y redirigir si es así
-		if (id in redirecciones) {
-			window.location.replace(redirecciones[id]);
-		} else {
-			// Redirigir a una página de error si el valor de "id" no es válido
-			// window.location.replace("https://www.ejemplo.com/error.html");
-            alert("Invalid ID");
+
+		redirigir(id);
+
+
+
+		function redirigir(id) {
+			// Verificar si el valor de "id" está en el objeto de redirecciones y redirigir si es así
+			if (id in redirecciones) {
+				window.location.replace(redirecciones[id]);
+			}
 		}
 	</script>
+
+
+
+	<input oninput="redirigir(this.value)">
 </body>
 </html>
