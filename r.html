@@ -2,9 +2,8 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Redirección según ID</title>
-</head>
-<body>
+	<title>Redirect by ID</title>
+    
 	<style>
 		body {
 			color-scheme: dark;
@@ -16,6 +15,14 @@
 			margin: 2rem;
 		}
 	</style>
+</head>
+<body>
+    <input id="input" oninput="redirigir(this.value)">
+
+
+    <!-- Jordi Mas Parramon - xordimas@gmail.com - https://github.com/jordimas96 -->
+
+
 	<script>
 		/*
 		
@@ -45,7 +52,7 @@
 			
 		};
 
-		// Obtener el valor del parámetro "id" de la URL
+        // Obtenir valor paràmetre id de la URL
 		const queryString = window.location.search;
 		const urlParams = new URLSearchParams(queryString);
 		const id = urlParams.get('id');
@@ -64,9 +71,5 @@
 			}
 		}
 	</script>
-
-
-
-	<input id="input" oninput="redirigir(this.value)">
 </body>
 </html>
