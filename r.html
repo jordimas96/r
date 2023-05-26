@@ -11,8 +11,15 @@
 		}
 	</style>
 	<script>
-		// Definir un objeto JSON que contiene las redirecciones
-		const redirecciones = {
+		/*
+		
+		EXEMPLE:
+		
+		https://jordimas96.github.io/r/r?id=play-store-apps
+		
+		*/
+		
+		const redireccions = {
 			// Al CV //
 			"PDF_DAW_Montilivi":
 			"https://www.institutmontilivi.cat/articles/oferta-formativa/cicles-formatius-grau-superior-bottom/D%C3%ADptics%202023/DAW_10_mar%C3%A7_2023.pdf",
@@ -43,9 +50,8 @@
 
 
 		function redirigir(id) {
-			// Verificar si el valor de "id" está en el objeto de redirecciones y redirigir si es así
-			if (id in redirecciones) {
-				window.location.replace(redirecciones[id]);
+			if (id in redireccions) {
+				window.location.replace(redireccions[id]);
 			}
 		}
 	</script>
