@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<title>Redirect by ID</title>
+    <meta charset="UTF-8">
+    <title>Redirect by ID</title>
     
-	<style>
-		body {
-			color-scheme: dark;
-			background-color: black;
-			color: white;
-		}
-		input {
-			font-size: 2rem;
+    <style>
+        body {
+            color-scheme: dark;
+            background-color: black;
+            color: white;
+        }
+        input {
+            font-size: 2rem;
             width: -webkit-fill-available;
-			margin: 2rem;
+            margin: 2rem;
             padding: 1rem;
-		}
-	</style>
+        }
+    </style>
 </head>
 <body>
     <input id="input" oninput="redirigir(this.value)">
@@ -25,53 +25,53 @@
     <!-- Jordi Mas Parramon - xordimas@gmail.com - https://github.com/jordimas96 -->
 
 
-	<script>
-		/*
-		
-		EXEMPLE:
-		
-		https://jordimas96.github.io/r/r?id=play-store-apps
-		
-		*/
-		
-		const redireccions = {
-			// Al CV //
-			"PDF_DAW_Montilivi":
-			"https://www.institutmontilivi.cat/articles/oferta-formativa/cicles-formatius-grau-superior-bottom/D%C3%ADptics%202023/DAW_10_mar%C3%A7_2023.pdf",
-			
-			"PDF_DAM_Montilivi":
-			"https://www.institutmontilivi.cat/articles/oferta-formativa/cicles-formatius-grau-superior-bottom/D%C3%ADptics%202023/DAM_10_mar%C3%A7_2023.pdf",
-			
-			// https://www.institutmontilivi.cat/oferta-formativa/cicles-formatius-grau-superior/ //
-			
-			
-			"play-store-apps":
-			"https://play.google.com/store/apps/developer?id=Jordi+Mas+Parramon",
-			
-			"spotify-a-cantar-chicos":
-			"https://open.spotify.com/playlist/0dFUSBV3XBp8UATBeu6nYv?si=bc33fa9a275941b4",
-			
-			
-		};
+    <script>
+        /*
+        
+        EXEMPLE:
+        
+        https://jordimas96.github.io/r/r?id=play-store-apps
+        
+        */
+        
+        const redireccions = {
+            // Al CV //
+            "PDF_DAW_Montilivi":
+            "https://www.institutmontilivi.cat/articles/oferta-formativa/cicles-formatius-grau-superior-bottom/D%C3%ADptics%202023/DAW_10_mar%C3%A7_2023.pdf",
+            
+            "PDF_DAM_Montilivi":
+            "https://www.institutmontilivi.cat/articles/oferta-formativa/cicles-formatius-grau-superior-bottom/D%C3%ADptics%202023/DAM_10_mar%C3%A7_2023.pdf",
+            
+            // https://www.institutmontilivi.cat/oferta-formativa/cicles-formatius-grau-superior/ //
+            
+            
+            "play-store-apps":
+            "https://play.google.com/store/apps/developer?id=Jordi+Mas+Parramon",
+            
+            "spotify-a-cantar-chicos":
+            "https://open.spotify.com/playlist/0dFUSBV3XBp8UATBeu6nYv?si=bc33fa9a275941b4",
+            
+            
+        };
 
         // Obtenir valor paràmetre id de la URL
-		const queryString = window.location.search;
-		const urlParams = new URLSearchParams(queryString);
-		const id = urlParams.get('id');
-		
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const id = urlParams.get('id');
+        
 
-		redirigir(id);
+        redirigir(id);
 
 
 
-		function redirigir(id) {
-			if (id in redireccions) {
-				window.location.replace(redireccions[id]);
-			}
-			else {
-				document.getElementById("input").value = id;
-			}
-		}
-	</script>
+        function redirigir(id) {
+            if (id in redireccions) {
+                window.location.replace(redireccions[id]);
+            }
+            else {
+                document.getElementById("input").value = id;
+            }
+        }
+    </script>
 </body>
 </html>
