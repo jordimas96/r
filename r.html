@@ -58,11 +58,14 @@
 			if (id in redireccions) {
 				window.location.replace(redireccions[id]);
 			}
+			else {
+				document.getElementById("input").value = id;
+			}
 		}
 	</script>
 
 
 
-	<input oninput="redirigir(this.value)">
+	<input id="input" oninput="redirigir(this.value)">
 </body>
 </html>
