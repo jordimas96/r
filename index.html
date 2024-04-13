@@ -50,7 +50,22 @@
             // Apps //
             "play store":
                 "https://jordimas96.github.io/pages/play-store", // Clone from https://play.google.com/store/apps/developer?id=Jordi+Mas+Parramon (inactive)
+            
 
+
+            // From my Android Apps //
+            "play store from apps":
+                "https://jordimas96.github.io/r/play-store",
+            "app info from sus tracker":
+                "https://jordimas96.github.io/r/play-store",
+            "app info from wallpaper blurrer":
+                "https://jordimas96.github.io/r/play-store",
+            "app info from text mimicker":
+                "https://jordimas96.github.io/r/play-store",
+
+
+                
+            // APKs //
             "breaking ball":
                 "https://jordimas96.github.io/assets/apks/Breaking Ball v3.4.apk",
             "sus tracker":
@@ -82,7 +97,9 @@
         function redirigir(id) {
             if (!id) return;
 
-            let idToTry = id.toLowerCase().replaceAll("-", " ");
+            let idToTry = id.toLowerCase()
+                .replaceAll("-", " ")
+                .replaceAll("%20", " ");
 
             if (idToTry in redireccions) {
                 window.location.replace(redireccions[idToTry]);
