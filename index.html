@@ -17,6 +17,14 @@
             padding: 1rem;
             border-radius: 1rem;
             border: 1px solid gray;
+
+            opacity: 0;
+            transform: translateY(-50px);
+            transition: opacity 0.3s, transform 0.3s;
+        }
+        input.mostrat {
+            opacity: 1;
+            transform: none;
         }
     </style>
 </head>
@@ -112,6 +120,11 @@
                 document.getElementById("input").value = id;
             }
         }
+
+        // Efecte //
+        setTimeout(() => {
+            document.getElementsByTagName("input")[0].classList.add("mostrat");
+        }, 0);
     </script>
 </body>
 </html>
