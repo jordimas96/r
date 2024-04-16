@@ -16,20 +16,19 @@
             margin: 2rem;
             padding: 1rem;
             border-radius: 1rem;
-            border: 1px solid gray;
-
-            opacity: 0;
-            transform: translateY(-50px);
-            transition: opacity 0.3s, transform 0.3s;
+            border: none;
+            background-color: transparent;
+            transition: background-color 0.3s, box-shadow 0.3s;
         }
-        input.mostrat {
-            opacity: 1;
-            transform: none;
+        .mostrat {
+            background-color: #1d005b;
+            box-shadow: 0 0 10px 10px #1d005b;
+            outline: none;
         }
     </style>
 </head>
 <body>
-    <input id="input" oninput="redirigir(this.value)">
+    <input id="input" oninput="redirigir(this.value)" onfocus="mostrar()">
 
 
     <!-- Jordi Mas Parramon - xordimas@gmail.com - https://github.com/jordimas96 -->
@@ -40,7 +39,7 @@
         
         EXEMPLE:
         
-        https://jordimas96.github.io/r/play-store-apps
+        https://jordimas96.github.io/r/play-store
         
         */
 
@@ -120,11 +119,9 @@
                 document.getElementById("input").value = id;
             }
         }
-
-        // Efecte //
-        setTimeout(() => {
+        function mostrar() {
             document.getElementsByTagName("input")[0].classList.add("mostrat");
-        }, 0);
+        }
     </script>
 </body>
 </html>
