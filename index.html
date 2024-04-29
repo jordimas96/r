@@ -100,16 +100,18 @@
         // const queryString = window.location.search;
         // const urlParams = new URLSearchParams(queryString);
         // const id = urlParams.get('id');
-        const id = location.search.split("?")[1];
+        var id = location.search.split("?")[1];
         
         redirigir(id);
 
         function redirigir(id) {
             if (!id) return;
 
-            let idToTry = id.toLowerCase()
-                .replaceAll("-", " ")
-                .replaceAll("%20", " ");
+            id = id.replaceAll("%20"," ");
+
+            let idToTry = id
+                .toLowerCase()
+                .replaceAll("-", " ");
 
             if (idToTry in redireccions) {
                 window.location.replace(redireccions[idToTry]);
