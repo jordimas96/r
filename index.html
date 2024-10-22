@@ -8,21 +8,30 @@
         body {
             color-scheme: dark;
             background-color: black;
-            color: white;
+            margin: 0;
+        }
+        .input-wrapper {
+            position: absolute;
+            inset: 0;
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+
+            padding: 4rem;
         }
         input {
             font-size: 3rem;
-            width: -webkit-fill-available;
-            margin: 2rem;
             padding: 1rem;
             border-radius: 1rem;
             border: none;
             background-color: transparent;
             transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+            display: none;
         }
         .mostrat {
-            background-color: #240073;
-            box-shadow: 0 0 10px 10px #240073;
+            display: inline;
+            background-color: #17004a;
             color: magenta;
             outline: none;
         }
@@ -34,7 +43,9 @@
     </style>
 </head>
 <body>
-    <input id="input" oninput="redirigir(this.value)" onfocus="mostrar()">
+    <div class="input-wrapper">
+        <input id="input" oninput="redirigir(this.value)">
+    </div>
 
 
     <!-- Jordi Mas Parramon - xordimas@gmail.com - https://github.com/jordimas96 -->
@@ -53,7 +64,10 @@
         redirigir(id);
 
         function redirigir(id) {
-            if (!id) return;
+            if (!id) {
+                mostrar();
+                return;
+            }
 
             id = id.replaceAll("%20", " ");
 
@@ -65,16 +79,23 @@
             let url = redireccions[stringABuscar];
 
             if (url) {
-                document.getElementById("input").classList.add("correcte");
+                correcte();
                 setTimeout(() => {
                     window.location.replace(url);
                 }, 200);
             }
-            else document.getElementById("input").value = id;
+            else {
+                document.getElementById("input").value = id;
+                mostrar();
+            }
             
         }
+
         function mostrar() {
             document.getElementById("input").classList.add("mostrat");
+        }
+        function correcte() {
+            document.getElementById("input").classList.add("correcte");
         }
     </script>
 </body>
