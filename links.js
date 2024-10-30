@@ -7,8 +7,8 @@ https://jordimas96.github.io/r/play-store
 */
 
 // Portfolio assets //
-const assets = "https://jordimas96.github.io/assets/jordimas96.github.io/"; // GitHub Pages //
-const assets_raw = "https://raw.githubusercontent.com/jordimas96/assets/main/jordimas96.github.io/";
+const assets = "https://jordimas96.github.io/assets_repo/jordimas96.github.io/"; // GitHub Pages //
+const assets_raw = "https://raw.githubusercontent.com/jordimas96/assets_repo/main/jordimas96.github.io/";
 
 const redireccions = {
     // CV //
