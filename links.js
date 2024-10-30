@@ -6,6 +6,10 @@ https://jordimas96.github.io/r/play-store
 
 */
 
+// Portfolio assets //
+const assets = "https://jordimas96.github.io/assets/jordimas96.github.io/"; // GitHub Pages //
+const assets_raw = "https://raw.githubusercontent.com/jordimas96/assets/main/jordimas96.github.io/";
+
 const redireccions = {
     // CV //
     "cv ca": "https://jordimas96.github.io/assets/documents/CV/CV%20Jordi%20Mas%20Parramon%20CA.pdf",
@@ -20,26 +24,26 @@ const redireccions = {
 
 
     // Apps //
-    "play store":       "https://jordimas96.github.io/external-pages/play-store/play-store.html", // Clone from https://play.google.com/store/apps/developer?id=Jordi+Mas+Parramon (inactive)
+    "play store":       "https://jordimas96.github.io/assets/jordimas96.github.io/external-pages/play-store/play-store.html", // Clone from https://play.google.com/store/apps/developer?id=Jordi+Mas+Parramon (inactive)
     "amazon appstore":  "https://www.amazon.com/s?rh=p_4%3AJMasDev",
 
 
     // Links set in my Android Apps //
     "play store from apps":             "https://jordimas96.github.io/r/play-store",
-    // "app info from breaking ball":      "https://jordimas96.github.io/external-pages/play-store/apps/breaking-ball.html", // No serà utlilitzat, ja no tinc el projecte //
-    // "app info from sus tracker":        "https://jordimas96.github.io/external-pages/play-store/apps/sus-tracker.html", // No utlilitzat //
-    "app info from wallpaper blurrer":  "https://jordimas96.github.io/external-pages/play-store/apps/wallpaper-blurrer.html",
-    "app info from text mimicker":      "https://jordimas96.github.io/external-pages/play-store/apps/text-mimicker.html",
+    // "app info from breaking ball":      assets + "external-pages/play-store/apps/breaking-ball.html", // No serà utlilitzat, ja no tinc el projecte //
+    // "app info from sus tracker":        assets + "external-pages/play-store/apps/sus-tracker.html", // No utlilitzat //
+    "app info from wallpaper blurrer":  assets + "external-pages/play-store/apps/wallpaper-blurrer.html",
+    "app info from text mimicker":      assets + "external-pages/play-store/apps/text-mimicker.html",
 
 
     // APKs //
-    "breaking ball":        "https://jordimas96.github.io/external-pages/play-store/apks/Breaking Ball 3.4.apk",
-    "sus tracker":          "https://jordimas96.github.io/external-pages/play-store/apks/SUS Tracker 3.0.1.apk",
-    "wallpaper blurrer":    "https://jordimas96.github.io/external-pages/play-store/apks/Wallpaper Blurrer 1.3.apk",
-    "text mimicker":        "https://jordimas96.github.io/external-pages/play-store/apks/Text Mimicker 1.1.apk",
+    "breaking ball":        assets_raw + "external-pages/play-store/apks/Breaking Ball 3.4.apk",
+    "sus tracker":          assets_raw + "external-pages/play-store/apks/SUS Tracker 3.0.1.apk",
+    "wallpaper blurrer":    assets_raw + "external-pages/play-store/apks/Wallpaper Blurrer 1.3.apk",
+    "text mimicker":        assets_raw + "external-pages/play-store/apks/Text Mimicker 1.1.apk",
 
 
-    "mad jumpgate": "https://jordimas96.github.io/external-pages/mad-jumpgate",
+    "mad jumpgate": assets + "external-pages/mad-jumpgate",
 
 
     "a cantar chicos": "https://open.spotify.com/playlist/0dFUSBV3XBp8UATBeu6nYv?si=bc33fa9a275941b4",
@@ -47,7 +51,7 @@ const redireccions = {
 
     // "rickroll": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     // "rickroll": "https://www.yout-ube.com/watch?v=dQw4w9WgXcQ",
-    "rickroll": "https://jordimas96.github.io/assets/jordimas96.github.io/rickroll.mp4",
+    "rickroll": assets + "rickroll.mp4",
 
 
 
