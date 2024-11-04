@@ -10,32 +10,39 @@
         }
         body {
             font-family: Arial;
-            background-color: rgb(22, 0, 42);
+            background-color: rgb(5, 0, 40);
             color: hsl(65, 100%, 95%);
-            font-size: 1.2rem;
+            font-size: 1.3rem;
         }
         .back {
             display: inline-block;
+            padding: 0.75rem 1.5rem;
             margin-bottom: 1rem;
-            padding: 0.5rem;
+            background-color: hsl(70, 100%, 88%);
+            color: hsl(70, 100%, 17%);
+            border-radius: 1rem;
+            text-decoration: none;
+
         }
         table {
 
         }
-        tr {
-
-        }
         td {
             padding: 0.25rem 1rem;
-            background-color: rgb(66, 33, 73);
+            background-color: hsl(280, 38%, 21%);
+            color: hsl(280, 100%, 95%);
             border-radius: 0.75rem;
         }
         td:first-child {
             text-align: center;
+            width: fit-content;
+        }
+        td:nth-child(2) {
+            font-family: monospace;
         }
         td:hover {
-            background-color: rgb(68, 0, 82);
-            color: rgb(224, 194, 255);;
+            background-color: hsl(310, 80%, 16%);
+            color: rgb(310, 194, 255);
             cursor: pointer;
         }
 
@@ -54,7 +61,7 @@
     </style>
 </head>
 <body>
-     <a href="./" class="back">← Back</a>
+    <a href="./" class="back boing">< Back</a>
 
     <table id="links"></table>
 
@@ -80,7 +87,7 @@
         });
 
 
-        function redirigir(link) {
+        function anarALink(link) {
             window.location.replace(link);
         }
 

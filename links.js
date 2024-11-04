@@ -24,7 +24,7 @@ const redireccions = {
 
 
     // Apps //
-    "play store":       "https://jordimas96.github.io/assets/jordimas96.github.io/external-pages/play-store/play-store.html", // Clone from https://play.google.com/store/apps/developer?id=Jordi+Mas+Parramon (inactive)
+    "play store":       assets_repo + "/jordimas96.github.io/external-pages/play-store/play-store.html", // Clone from https://play.google.com/store/apps/developer?id=Jordi+Mas+Parramon (inactive)
     "amazon appstore":  "https://www.amazon.com/s?rh=p_4%3AJMasDev",
 
 
@@ -56,7 +56,7 @@ const redireccions = {
 
 
 
-    "?": "https://jordimas96.github.io/showLinks",
+    "?": "https://jordimas96.github.io/r/show-links",
 
 
 
