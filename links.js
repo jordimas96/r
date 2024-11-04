@@ -56,6 +56,7 @@ const redireccions = {
 
 
 
+    "?": "https://jordimas96.github.io/showLinks",
 
 
 

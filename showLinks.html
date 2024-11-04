@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Redirect by ID</title>
+
+    <style>
+        html {
+            color-scheme: dark;
+        }
+        body {
+            font-family: Arial;
+            background-color: rgb(22, 0, 42);
+            color: hsl(65, 100%, 95%);
+            font-size: 1.2rem;
+        }
+        .back {
+            display: inline-block;
+            margin-bottom: 1rem;
+            padding: 0.5rem;
+        }
+        table {
+
+        }
+        tr {
+
+        }
+        td {
+            padding: 0.25rem 1rem;
+            background-color: rgb(66, 33, 73);
+            border-radius: 0.75rem;
+        }
+        td:first-child {
+            text-align: center;
+        }
+        td:hover {
+            background-color: rgb(68, 0, 82);
+            color: rgb(224, 194, 255);;
+            cursor: pointer;
+        }
+
+        .boing {
+            cursor: pointer;
+            transform-origin: center;
+            transition: transform 0.1s, border-radius 0.3s;
+            &:active {
+                transform: scale(0.9) !important;
+            }
+            &:disabled {
+                pointer-events: none;
+            }
+        }
+
+    </style>
+</head>
+<body>
+     <a href="./" class="back">← Back</a>
+
+    <table id="links"></table>
+
+
+    <!-- Jordi Mas Parramon - xordimas@gmail.com - https://github.com/jordimas96 -->
+
+    <script src="./links.js"></script>
+
+    <script>
+        
+        Object.keys(redireccions).forEach(key => {
+            document.getElementById("links").innerHTML +=
+            `
+            <tr>
+                <td onclick="copy('${key}')" class="boing">
+                    ${key}
+                </td>
+                <td onclick="anarALink('${redireccions[key]}')" class="boing">
+                    ${redireccions[key]}
+                </td>
+            </tr>
+            `;
+        });
+
+
+        function redirigir(link) {
+            window.location.replace(link);
+        }
+
+        function copy(id) {
+            navigator.clipboard.writeText(id);
+        }
+
+
+        // document.getElementById("links").innerHTML = JSON.stringify(redireccions);
+
+    </script>
+</body>
+</html>
