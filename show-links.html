@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Redirect by ID</title>
 
     <style>
@@ -12,7 +13,6 @@
             font-family: Arial;
             background-color: rgb(5, 0, 40);
             color: hsl(65, 100%, 95%);
-            font-size: 1.3rem;
         }
         .back {
             display: inline-block;
@@ -67,6 +67,12 @@
             }
             &:disabled {
                 pointer-events: none;
+            }
+        }
+
+        @media only screen and (max-width: 768px) {
+            #links-table {
+                grid-template-columns: 30% 1fr;
             }
         }
 
