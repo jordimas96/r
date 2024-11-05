@@ -24,25 +24,37 @@
             text-decoration: none;
 
         }
-        table {
-
+        #links-table {
+            display: grid;
+            grid-template-columns: max-content 1fr;
+            gap: 1rem 0.5rem;
+            overflow-wrap: anywhere;
         }
-        td {
+        #links-table > div {
+            display: flex;
+            align-items: center;
             padding: 0.25rem 1rem;
-            background-color: hsl(280, 38%, 21%);
-            color: hsl(280, 100%, 95%);
-            border-radius: 0.75rem;
+            background-color: hsl(200, 38%, 21%);
+            color: hsl(200, 100%, 95%);
         }
-        td:first-child {
+        #links-table > div:nth-child(odd) {
+            justify-self: end;
+
             text-align: center;
             width: fit-content;
+
+            border-radius: 1rem 0.25rem 0.25rem 1rem;
         }
-        td:nth-child(2) {
+        #links-table > div:nth-child(even) {
+            display: flex;
+            align-items: center;
             font-family: monospace;
+
+            border-radius: 0.25rem 1rem 1rem 0.25rem;
         }
-        td:hover {
-            background-color: hsl(310, 80%, 16%);
-            color: rgb(310, 194, 255);
+        #links-table > div:hover {
+            background-color: hsl(225, 48%, 26%);
+            color: hsl(224, 100%, 87%);
             cursor: pointer;
         }
 
@@ -63,7 +75,7 @@
 <body>
     <a href="./" class="back boing">< Back</a>
 
-    <table id="links"></table>
+    <div id="links-table"></div>
 
 
     <!-- Jordi Mas Parramon - xordimas@gmail.com - https://github.com/jordimas96 -->
@@ -73,16 +85,14 @@
     <script>
         
         Object.keys(redireccions).forEach(key => {
-            document.getElementById("links").innerHTML +=
+            document.getElementById("links-table").innerHTML +=
             `
-            <tr>
-                <td onclick="copy('${key}')" class="boing">
-                    ${key}
-                </td>
-                <td onclick="anarALink('${redireccions[key]}')" class="boing">
-                    ${redireccions[key]}
-                </td>
-            </tr>
+            <div onclick="copy('${key}')" class="boing">
+                ${key}
+            </div>
+            <div onclick="anarALink('${redireccions[key]}')" class="boing">
+                ${redireccions[key]}
+            </div>
             `;
         });
 
