@@ -1,5 +1,5 @@
 /*
-            
+
 EXEMPLE:
 
 https://jordimas96.github.io/r/play-store
@@ -7,15 +7,15 @@ https://jordimas96.github.io/r/play-store
 */
 
 // Portfolio assets //
-const assets_repo = "https://jordimas96.github.io/assets_repo/jordimas96.github.io/"; // GitHub Pages //
-const assets_repo_raw = "https://raw.githubusercontent.com/jordimas96/assets_repo/main/jordimas96.github.io/";
+const assets_repo = "https://jordimas96.github.io/assets_repo"; // GitHub Pages //
+const assets_repo_raw = "https://raw.githubusercontent.com/jordimas96/assets_repo/main";
 
 const redireccions = {
     // CV //
     "cv ca": "https://jordimas96.github.io/assets/documents/CV/CV%20Jordi%20Mas%20Parramon%20CA.pdf",
     "cv es": "https://jordimas96.github.io/assets/documents/CV/CV%20Jordi%20Mas%20Parramon%20ES.pdf",
     "cv en": "https://jordimas96.github.io/assets/documents/CV/CV%20Jordi%20Mas%20Parramon%20EN.pdf",
-    
+
     // Al CV //
     "pdf daw montilivi": "https://www.institutmontilivi.cat/articles/oferta-formativa/cicles-formatius-grau-superior-bottom/D%C3%ADptics%202023/DAW_10_mar%C3%A7_2023.pdf",
     "pdf dam montilivi": "https://www.institutmontilivi.cat/articles/oferta-formativa/cicles-formatius-grau-superior-bottom/D%C3%ADptics%202023/DAM_10_mar%C3%A7_2023.pdf",
@@ -51,7 +51,7 @@ const redireccions = {
 
     // "rickroll": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     // "rickroll": "https://www.yout-ube.com/watch?v=dQw4w9WgXcQ",
-    "surprise": assets_repo + "surprise.mp4",
+    "surprise": assets_repo + "/jordimas96.github.io/surprise.mp4",
 
 
 
@@ -63,5 +63,5 @@ const redireccions = {
 
 
 
-    
+
 };
