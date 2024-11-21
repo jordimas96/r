@@ -51,7 +51,7 @@ const redireccions = {
 
     // "rickroll": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     // "rickroll": "https://www.yout-ube.com/watch?v=dQw4w9WgXcQ",
-    "surprise": assets_repo + "/jordimas96.github.io/surprise.mp4",
+    "always down": assets_repo + "/alwaysdown.mp4",
 
 
 
