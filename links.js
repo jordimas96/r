@@ -17,8 +17,10 @@ const redireccions = {
     "cv en": "https://jordimas96.github.io/assets/documents/CV/CV%20Jordi%20Mas%20Parramon%20EN.pdf",
 
     // Al CV //
-    "pdf daw montilivi": "https://www.institutmontilivi.cat/articles/oferta-formativa/cicles-formatius-grau-superior-bottom/D%C3%ADptics%202023/DAW_10_mar%C3%A7_2023.pdf",
-    "pdf dam montilivi": "https://www.institutmontilivi.cat/articles/oferta-formativa/cicles-formatius-grau-superior-bottom/D%C3%ADptics%202023/DAM_10_mar%C3%A7_2023.pdf",
+    // "pdf daw montilivi": "https://www.institutmontilivi.cat/articles/oferta-formativa/cicles-formatius-grau-superior-bottom/D%C3%ADptics%202023/DAW_10_mar%C3%A7_2023.pdf",
+    // "pdf dam montilivi": "https://www.institutmontilivi.cat/articles/oferta-formativa/cicles-formatius-grau-superior-bottom/D%C3%ADptics%202023/DAM_10_mar%C3%A7_2023.pdf",
+    "pdf daw montilivi": "https://jordimas96.github.io/assets/documents/CFGS Montilivi/DAW_10_mar%C3%A7_2023.pdf",
+    "pdf dam montilivi": "https://jordimas96.github.io/assets/documents/CFGS Montilivi/DAM_10_mar%C3%A7_2023.pdf",
     // https://www.institutmontilivi.cat/oferta-formativa/cicles-formatius-grau-superior/ //
 
 
