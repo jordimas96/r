@@ -51,9 +51,9 @@ const redireccions = {
     "a cantar chicos": "https://open.spotify.com/playlist/0dFUSBV3XBp8UATBeu6nYv?si=bc33fa9a275941b4",
 
 
-    // "rickroll": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    // "rickroll": "https://www.yout-ube.com/watch?v=dQw4w9WgXcQ",
-    "always down": assets_repo + "/alwaysdown.mp4",
+    // "always down": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "always down": "https://www.yout-ube.com/watch?v=dQw4w9WgXcQ",
+    // "always down": assets_repo + "/alwaysdown.mp4",
 
 
 
