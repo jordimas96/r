@@ -46,8 +46,10 @@ const redireccions = {
 
 
     "mad jumpgate": assets_repo + "/jordimas96.github.io/external-pages/mad-jumpgate",
+
     "fps from instagram story": "https://jordimas96.github.io/section/mad-jumpgate",
     "sus tracker play store from instagram story": assets_repo + "/jordimas96.github.io/external-pages/play-store/apps/sus-tracker.html",
+    "wallpaper blurrer play store from instagram story": assets_repo + "/jordimas96.github.io/external-pages/play-store/apps/wallpaper-blurrer.html",
 
 
     "a cantar chicos": "https://open.spotify.com/playlist/0dFUSBV3XBp8UATBeu6nYv?si=bc33fa9a275941b4",
