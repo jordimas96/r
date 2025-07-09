@@ -12,9 +12,10 @@ const assets_repo_raw = "https://raw.githubusercontent.com/jordimas96/assets_rep
 
 const redireccions = {
     // CV //
-    "cv ca": "https://jordimas96.github.io/assets/documents/CV/CV%20Jordi%20Mas%20Parramon%20CA.pdf",
-    "cv es": "https://jordimas96.github.io/assets/documents/CV/CV%20Jordi%20Mas%20Parramon%20ES.pdf",
-    "cv en": "https://jordimas96.github.io/assets/documents/CV/CV%20Jordi%20Mas%20Parramon%20EN.pdf",
+    "cv ca": "https://jordimas96.github.io/assets/documents/cv/CV%20Jordi%20Mas%20Parramon%20CA.pdf",
+    "cv es": "https://jordimas96.github.io/assets/documents/cv/CV%20Jordi%20Mas%20Parramon%20ES.pdf",
+    "cv en": "https://jordimas96.github.io/assets/documents/cv/CV%20Jordi%20Mas%20Parramon%20EN.pdf",
+    "cv": "https://jordimas96.github.io/assets/documents/cv/",
 
     // Al CV //
     // "pdf daw montilivi": "https://www.institutmontilivi.cat/articles/oferta-formativa/cicles-formatius-grau-superior-bottom/D%C3%ADptics%202023/DAW_10_mar%C3%A7_2023.pdf",
