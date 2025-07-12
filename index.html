@@ -46,7 +46,7 @@
 </head>
 <body>
     <div class="input-wrapper">
-        <input id="input" oninput="redirigir(this.value)">
+        <input id="input" oninput="redirigir(this.value, true)">
     </div>
 
 
@@ -63,9 +63,9 @@
         // const id = urlParams.get('id');
         var id = location.search.split("?")[1];
         
-        redirigir(id);
+        redirigir(id, false);
 
-        function redirigir(id) {
+        function redirigir(id, mantenirHistorial = true) {
             if (!id) {
                 mostrar();
                 return;
@@ -83,7 +83,10 @@
             if (url) {
                 correcte();
                 setTimeout(() => {
-                    window.location.replace(url);
+                    if (mantenirHistorial)
+                        window.location.href = url;
+                    else
+                        window.location.replace(url);
                 }, 200);
             }
             else {
@@ -98,6 +101,7 @@
         }
         function correcte() {
             document.getElementById("input").classList.add("correcte");
+            document.getElementById("input").readOnly = true;
         }
     </script>
 </body>
