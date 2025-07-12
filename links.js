@@ -17,7 +17,14 @@ const redireccions = {
     "cv en": "https://jordimas96.github.io/assets/documents/cv/CV%20Jordi%20Mas%20Parramon%20EN.pdf",
     "cv": "https://jordimas96.github.io/assets/documents/cv/",
 
-    // Al CV //
+    // Links del CV //
+    "cv experience": "https://jordimas96.github.io/experience",
+    "cv projects": "https://jordimas96.github.io/projects",
+    "cv select language": "https://jordimas96.github.io/assets/documents/cv/",
+    "cv indra": "https://jordimas96.github.io/indra",
+    "cv evora": "https://jordimas96.github.io/evora",
+    "cv in2art": "https://jordimas96.github.io/in2art",
+
     // "pdf daw montilivi": "https://www.institutmontilivi.cat/articles/oferta-formativa/cicles-formatius-grau-superior-bottom/D%C3%ADptics%202023/DAW_10_mar%C3%A7_2023.pdf",
     // "pdf dam montilivi": "https://www.institutmontilivi.cat/articles/oferta-formativa/cicles-formatius-grau-superior-bottom/D%C3%ADptics%202023/DAM_10_mar%C3%A7_2023.pdf",
     "pdf daw montilivi": "https://jordimas96.github.io/assets/documents/CFGS Montilivi/DAW_10_mar%C3%A7_2023.pdf",
