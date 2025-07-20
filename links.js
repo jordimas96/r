@@ -36,6 +36,7 @@ const redireccions = {
     // Apps //
     "play store":       assets_repo + "/jordimas96.github.io/external-pages/play-store/play-store.html", // Clone from https://play.google.com/store/apps/developer?id=Jordi+Mas+Parramon (inactive)
     "amazon appstore":  "https://www.amazon.com/s?rh=p_4%3AJMasDev",
+    // "amazon appstore":  assets_repo + "/jordimas96.github.io/external-pages/amazon-appstore/amazon-appstore.html", // Clone from https://www.amazon.com/s?rh=p_4%3AJMasDev (still active in 20-7-24)
 
 
     // Links set in my Android Apps //
@@ -47,10 +48,10 @@ const redireccions = {
 
 
     // APKs //
-    "breaking ball":        assets_repo_raw + "/jordimas96.github.io/external-pages/play-store/apks/Breaking Ball 3.4.apk",
-    "sus tracker":          assets_repo_raw + "/jordimas96.github.io/external-pages/play-store/apks/SUS Tracker 3.0.1.apk",
-    "wallpaper blurrer":    assets_repo_raw + "/jordimas96.github.io/external-pages/play-store/apks/Wallpaper Blurrer 1.3.apk",
-    "text mimicker":        assets_repo_raw + "/jordimas96.github.io/external-pages/play-store/apks/Text Mimicker 1.1.apk",
+    "breaking ball":        assets_repo_raw + "/jordimas96.github.io/apks/Breaking Ball 3.4.apk",
+    "sus tracker":          assets_repo_raw + "/jordimas96.github.io/apks/SUS Tracker 3.0.1.apk",
+    "wallpaper blurrer":    assets_repo_raw + "/jordimas96.github.io/apks/Wallpaper Blurrer 1.3.apk",
+    "text mimicker":        assets_repo_raw + "/jordimas96.github.io/apks/Text Mimicker 1.1.apk",
 
 
     "mad jumpgate": assets_repo + "/jordimas96.github.io/external-pages/mad-jumpgate",
