@@ -54,7 +54,10 @@ const redireccions = {
     "text mimicker":        assets_repo_raw + "/jordimas96.github.io/apks/Text Mimicker 1.1.apk",
 
 
-    "mad jumpgate": assets_repo + "/jordimas96.github.io/external-pages/mad-jumpgate",
+    "mad jumpgate": "mad jumpgate online webgl",
+    "mad jumpgate online webgl": assets_repo + "/jordimas96.github.io/external-pages/mad-jumpgate",
+    "mad jumpgate download windows": "https://mega.nz/file/W4Jk3DjJ#9MN1cxjy-4jcBcO7QlX9UfNyHNSQXeewsJdw1QaQut4", // Mega //
+    // "mad jumpgate download windows": "https://1drv.ms/u/c/a24ec1ff64a76053/EaOI6ZuYYLxApTuEyIwnI44B1mTk2nGVDsS9610OXKnK4Q?e=mWbik8", // OneDrive //
 
     "fps from instagram story": "https://jordimas96.github.io/section/mad-jumpgate",
     "sus tracker play store from instagram story": assets_repo + "/jordimas96.github.io/external-pages/play-store/apps/sus-tracker.html",
