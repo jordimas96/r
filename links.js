@@ -34,17 +34,17 @@ const redireccions = {
 
 
     // Apps //
-    "play store":       assets_repo + "/jordimas96.github.io/external-pages/play-store/play-store.html", // Clone from https://play.google.com/store/apps/developer?id=Jordi+Mas+Parramon (inactive)
+    "play store":       assets_repo + "/jordimas96.github.io/external-pages/apps/play-store/play-store.html", // Clone from https://play.google.com/store/apps/developer?id=Jordi+Mas+Parramon (inactive)
     "amazon appstore":  "https://www.amazon.com/s?rh=p_4%3AJMasDev",
-    // "amazon appstore":  assets_repo + "/jordimas96.github.io/external-pages/amazon-appstore/amazon-appstore.html", // Clone from https://www.amazon.com/s?rh=p_4%3AJMasDev (still active in 20-7-24)
+    // "amazon appstore":  assets_repo + "/jordimas96.github.io/external-pages/apps/amazon-appstore/amazon-appstore.html", // Clone from https://www.amazon.com/s?rh=p_4%3AJMasDev (still active in 20-7-24)
 
 
     // Links set in my Android Apps //
     "play store from apps":             "https://jordimas96.github.io/r/play-store",
-    // "app info from breaking ball":      assets_repo + "/jordimas96.github.io/external-pages/play-store/apps/breaking-ball.html", // No serà utlilitzat, ja no tinc el projecte //
-    // "app info from sus tracker":        assets_repo + "/jordimas96.github.io/external-pages/play-store/apps/sus-tracker.html", // No utlilitzat //
-    "app info from wallpaper blurrer":  assets_repo + "/jordimas96.github.io/external-pages/play-store/apps/wallpaper-blurrer.html",
-    "app info from text mimicker":      assets_repo + "/jordimas96.github.io/external-pages/play-store/apps/text-mimicker.html",
+    // "app info from breaking ball":      assets_repo + "/jordimas96.github.io/external-pages/apps/play-store/apps/breaking-ball.html", // No serà utlilitzat, ja no tinc el projecte //
+    // "app info from sus tracker":        assets_repo + "/jordimas96.github.io/external-pages/apps/play-store/apps/sus-tracker.html", // No utlilitzat //
+    "app info from wallpaper blurrer":  assets_repo + "/jordimas96.github.io/external-pages/apps/play-store/apps/wallpaper-blurrer.html",
+    "app info from text mimicker":      assets_repo + "/jordimas96.github.io/external-pages/apps/play-store/apps/text-mimicker.html",
 
 
     // APKs //
@@ -60,8 +60,8 @@ const redireccions = {
     // "mad jumpgate download windows": "https://1drv.ms/u/c/a24ec1ff64a76053/EaOI6ZuYYLxApTuEyIwnI44B1mTk2nGVDsS9610OXKnK4Q?e=mWbik8", // OneDrive //
 
     "fps from instagram story": "https://jordimas96.github.io/section/mad-jumpgate",
-    "sus tracker play store from instagram story": assets_repo + "/jordimas96.github.io/external-pages/play-store/apps/sus-tracker.html",
-    "wallpaper blurrer play store from instagram story": assets_repo + "/jordimas96.github.io/external-pages/play-store/apps/wallpaper-blurrer.html",
+    "sus tracker play store from instagram story": assets_repo + "/jordimas96.github.io/external-pages/apps/play-store/apps/sus-tracker.html",
+    "wallpaper blurrer play store from instagram story": assets_repo + "/jordimas96.github.io/external-pages/apps/play-store/apps/wallpaper-blurrer.html",
 
     "color harmonizer from instagram story": "https://jordimas96.github.io/color-harmonizer",
 
