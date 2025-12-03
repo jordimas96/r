@@ -46,12 +46,18 @@ const redireccions = {
     "app info from wallpaper blurrer":  assets_repo + "/jordimas96.github.io/external-pages/apps/play-store/apps/wallpaper-blurrer.html",
     "app info from text mimicker":      assets_repo + "/jordimas96.github.io/external-pages/apps/play-store/apps/text-mimicker.html",
 
+    // Generals //
+    "breaking ball":      assets_repo + "/jordimas96.github.io/external-pages/apps/play-store/apps/breaking-ball.html",
+    "sus tracker":        assets_repo + "/jordimas96.github.io/external-pages/apps/play-store/apps/sus-tracker.html",
+    "wallpaper blurrer":  assets_repo + "/jordimas96.github.io/external-pages/apps/play-store/apps/wallpaper-blurrer.html",
+    "text mimicker":      assets_repo + "/jordimas96.github.io/external-pages/apps/play-store/apps/text-mimicker.html",
+
 
     // APKs //
-    "breaking ball":        assets_repo_raw + "/jordimas96.github.io/apks/Breaking Ball 3.4.apk",
-    "sus tracker":          assets_repo_raw + "/jordimas96.github.io/apks/SUS Tracker 3.0.1.apk",
-    "wallpaper blurrer":    assets_repo_raw + "/jordimas96.github.io/apks/Wallpaper Blurrer 1.3.apk",
-    "text mimicker":        assets_repo_raw + "/jordimas96.github.io/apks/Text Mimicker 1.1.apk",
+    "breaking ball apk":        assets_repo_raw + "/jordimas96.github.io/apks/Breaking Ball 3.4.apk",
+    "sus tracker apk":          assets_repo_raw + "/jordimas96.github.io/apks/SUS Tracker 3.0.1.apk",
+    "wallpaper blurrer apk":    assets_repo_raw + "/jordimas96.github.io/apks/Wallpaper Blurrer 1.3.apk",
+    "text mimicker apk":        assets_repo_raw + "/jordimas96.github.io/apks/Text Mimicker 1.1.apk",
 
 
     "mad jumpgate": "mad jumpgate online webgl",
