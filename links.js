@@ -34,7 +34,8 @@ const redireccions = {
 
 
     // Apps //
-    "play store":       assets_repo + "/jordimas96.github.io/external-pages/apps/play-store/play-store.html", // Clone from https://play.google.com/store/apps/developer?id=Jordi+Mas+Parramon (inactive)
+    // "play store":       assets_repo + "/jordimas96.github.io/external-pages/apps/play-store/play-store.html", // Clone from https://play.google.com/store/apps/developer?id=Jordi+Mas+Parramon (inactive)
+    "play store":       "https://jordimas96.github.io/assets/_projects/android/play-store/index-simple.html",
     "amazon appstore":  "https://www.amazon.com/s?rh=p_4%3AJMasDev",
     // "amazon appstore":  assets_repo + "/jordimas96.github.io/external-pages/apps/amazon-appstore/amazon-appstore.html", // Clone from https://www.amazon.com/s?rh=p_4%3AJMasDev (still active in 20-7-24)
 
